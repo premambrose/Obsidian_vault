@@ -1,10 +1,14 @@
 ST Laptop
-Obsidian Git Pull 
-```Run-powershell
+Obsidian Git Pull
+```run-powershell
 cd C:\Files\Obsidian_vault
 git pull origin main
 ```
 
+Obsidian Git Push
+```run-powershell
+.C:\Files\Scripts\push_obsidian.ps1
+```
 
 
 # ST
