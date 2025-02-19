@@ -1,0 +1,16 @@
+{
+  "accentColor": "#ffb752",
+  "baseFontSize": 22,
+  "theme": "moonstone",
+  "enabledCssSnippets": [
+    "extended-colorschemes",
+    "timeline-snippet",
+    "Toggle lines",
+    "checked_list",
+    "S - Checkboxes"
+  ],
+  "cssTheme": "Minimal",
+  "baseFontSizeAction": true,
+  "translucency": false,
+  "nativeMenus": false
+}

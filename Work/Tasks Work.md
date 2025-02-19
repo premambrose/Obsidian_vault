@@ -1,0 +1,271 @@
+---
+tags:
+  - tasks
+  - todo
+  - ST
+  - work
+aliases:
+  - Important Tasks
+---
+- # February
+	- [x] Familiarize with Cube AI ✅ 2023-02-23
+	- [x] Familiarize with STM32H747 [[STM32H747 Examples|Examples]] ✅ 2023-03-16
+	- [x] Reinforcement Learning ✅ 2023-03-16
+	- [x] Understand Stefano's work ✅ 2023-02-23 
+	- [x] Frame image to virtual matrix conversion (must be fast) ✅ 2023-03-16
+	- [x] STM32IPL library for image transformation (from OpenMV) ✅ 2023-03-16
+		- [x] Can be found in FP_AI_VISION
+	- [x] Davide Giacalone - works on ONNX conversion ✅ 2023-03-16
+	- [x] Dummy PyTorch model ✅ 2023-02-23
+	- [x] ONNX to TensorFlow to tflite ✅ 2023-03-16
+	- [x] Draw on touch LCD with custom layers 🔼 🛫 2023-02-10 📅 2023-02-10 ✅ 2023-03-16
+	- [x] Check python workflow of the maze solver 🔼 🛫 2023-02-13 📅 2023-02-15 ✅ 2023-03-16
+- # March
+	- [x] Eclipse plugins CDT, etc. ✅ 2023-03-01
+	- [x] Stable baseline, onnx conversion ✅ 2023-03-10
+	- [x] Better Onnx to tflite conversion ✅ 2023-03-10
+	- [x] Check how to run jupyter notebook in background on server ✅ 2023-03-31
+	- [x] Capture and save images microSD ✅ 2023-03-02
+	- [x] write code for the AI part ✅ 2023-03-10
+	- [x] Merge cube AI libraries in the project file ✅ 2023-03-06
+	- [x] Orientation of the Camera ✅ 2023-03-06
+	- [x] Add code to draw arrow for directions ✅ 2023-03-14
+	- [x] Code to stop showing arrows outside the display area ✅ 2023-03-14
+	- [x] Frame to Matrix ✅ 2023-03-24
+		- [x] Detect corner blobs ✅ 2023-03-29
+		- [x] Perspective Transform matrix ✅ 2023-03-24
+		- [x] Apply matrix to get ball position ✅ 2023-03-24
+		- [x] Divide resolution by n pixels per block ✅ 2023-03-24
+	- [x] change length of arrow stem to static (10 pixels ) ✅ 2023-03-20
+	- [x] Check frame rate of the current setup ✅ 2023-03-29
+	- [x] Sketch new maze diagram (38x27)cm ✅ 2023-03-29
+	- [x] Write the biography ⏫ 🛫 2023-03-30 📅 2023-03-30 ✅ 2023-03-31
+- # April
+	- ### Week 14
+		- [x] Pip install stable-baseline3[extra] in server with LAN 📅 2023-04-04 ✅ 2023-04-04
+		- [x] Check with Vulkan PC 📅 2023-04-04 ✅ 2023-04-04
+		- [x] Keras Model 📅 2023-04-07 ✅ 2023-04-04
+		- [x] Train with the new maze size of 38x29 ⏫ 📅 2023-04-07 ✅ 2023-04-05
+		- [x] Export the model in TfLite or PyTorch 📅 2023-04-10 ✅ 2023-04-05
+		- [x] check the size of the model, fps and the inference time on target 📅 2023-04-10 ✅ 2023-04-05
+		- [x] Write Possible walls list in utils.py ✅ 2023-04-06
+		- [x] write a new maze matrix ✅ 2023-04-06
+		- [x] Train the new maze with 13x19 📅 2023-04-06 ✅ 2023-04-06
+		- [x] Quantize train the model for further size reduction 📅 2023-04-07 ✅ 2023-04-07
+		- [x] Export the new model in TfLite and quantized_TfLite 📅 2023-04-07 ✅ 2023-04-07
+		- [x] check the size of the new model 📅 2023-04-07 ✅ 2023-04-07
+		- [x] Draw new maze 📅 2023-04-06 ✅ 2023-04-07
+		- [x] Pass the maze diagram to Claudio after ML verification 📅 2023-04-07 ✅ 2023-04-07
+	- ### Week 15 
+		- [x] Check fps and the inference time on target 📅 2023-04-11 ✅ 2023-04-11
+		- [x] Check core clock freq ✅ 2023-04-11
+		- [x] Goal setting 📅 2023-04-13 ✅ 2023-04-13
+		- [x] Development training(both technical and non-technical) and presentation ✅ 2023-04-17
+		- [x] Request performance feedback ✅ 2023-04-17
+		- [x] **Train multiple models with different topology** 📅 2023-04-07 ✅ 2023-04-17
+	- ### Week 16
+		- [x] IEEE access ✅ 2023-04-21
+		- [x] Sketch Up 3D model 📅 2023-04-17 ✅ 2023-04-18
+		- [x] 3D print 📅 2023-04-20 ✅ 2023-04-21
+		- [x] Demo preparation ⏫ ⏳ 2023-04-17 ✅ 2023-04-17 
+		- [x] Study ISPU examples ✅ 2023-04-26
+		- [x] Understand ISPU tools ✅ 2023-04-26
+- # May
+	- ### Week 18
+		- [x] ISPU tools ✅ 2023-05-08
+		- [x] Maze news ✅ 2023-05-08
+		- [x] PAR on 24, 26, 28 fever ✅ 2023-05-08
+		- [x] ASL Appointment 30th may 9:15 am (San Siro) ✅ 2023-05-08
+		- [x] Check for Plywood ✅ 2023-05-08
+			- [x] Two thin(2mm to 3mm plywood) ✅ 2023-05-08
+			- [x] Two plastic slabs (1 - transparent, 1 - Opaque) thick, 0.7cm ✅ 2023-05-08
+		- [x] Check the new maze and check the moving blocks ✅ 2023-05-08
+			- [x] Ball doesn't fit, ball diameter (2cm) ✅ 2023-05-08
+			- [x] Corner plugs doesn't fit, need some sanding ✅ 2023-05-08
+		- [x] Write Claudio for NanoEdge AI key ✅ 2023-05-12`
+	- ## Week 19 & 20
+		- [x] ISPU NanoEdge AI License ✅ 2023-05-05
+		- [x] Get a development device ✅ 2023-05-08
+		- [x] Experiment different feature extraction with python ✅ 2023-05-08
+		- [x] Analyze the features with plots and graphs to obtain good features ✅ 2023-05-08
+		- [x] New hardware STWinbox and PCB ✅ 2023-05-08
+		- [x] Feature Extraction Notebook ⏫ 📅 2023-05-16 ✅ 2023-05-18
+		- [x] Study ISPU examples ✅ 2023-05-18
+		- [x] Develop initial ML NN for accelerometer data ✅ 2023-05-18
+		- [x] Example ISPU: Activity, Man down ✅ 2023-05-18
+		- [x] ISPU AI TOOLS ✅ 2023-05-18
+		- [x] WSL flow request ( Marco -> Claudio) ✅ 2023-05-18
+	- ## Week 21 & 22
+		- [x] POW Tool training ✅ 2023-06-07
+		- [x] [POW how to for newcomers](https://stmicroelectronics-my.sharepoint.com/:v:/r/personal/giulio_urlini_st_com/Documents/Documents/SRA%20project%20management/manual/POW%20howto%20for%20newcomers-20230427_100325-Meeting%20Recording.mp4?csf=1&web=1&e=VoOblt) ✅ 2023-05-22
+		- [x] Hem - Dutt DABRAL SRA INDIA works on IPSU tools in Vespucci ✅ 2023-05-18		
+	- ## Week 23 & 24
+		- [x] Flow requests for expired ones ✅ 2023-06-07
+		- [x] Remind Claudio about POW system ✅ 2023-06-07
+		- [x] Visual check of the new NN (19x15) (prototype) ✅ 2023-06-12
+		- [x] Fix the AI output ⏫ ⏳ 2023-06-16 ✅ 2023-06-16
+			- [x] Check what is the last layer and what the output should be in pytorch ✅ 2023-06-16
+			- [x] Cross reference it with the outputs from the maze game cube AI model ✅ 2023-06-16
+		- [x] Speak with Catania people about the motor control firmware 🔼 ✅ 2023-06-16
+	- ## Week 25
+		- [x] Setup of ISPU AI toolchain for code generation and analyzing model compatibility ✅ 2023-06-20
+		- [x] Setup of the ISPU with HSDATALOG2 for data collection and visualization ✅ 2023-06-20
+		- [x] Test the face up and face down classifier with ISPU and STWINBX1 ✅ 2023-06-21
+		- [x] Solved problem with the USB USART communication between H7 and MP1 of the maze game ✅ 2023-06-22
+		- [x] Gameplay of the Maze with the new pattern and the motor control using STM32MP was completed ✅ 2023-06-23
+		- [x] Motor control is done every 250ms which is not fast enough to play the AI game to make quick turns. ✅ 2023-06-23
+		- [x] Addressing paper review for Metroxraine ✅ 2023-06-23
+		- [x] Italian language : 2hr ✅ 2023-06-22
+
+	 - ## Week 26 
+		 - [x] Review and Proofreading of the paper submitted to Metroxraine ✅ 2023-06-27
+		 - [x] Organizing the Maze game project for a better version control. ✅ 2023-06-28
+		 - [x] Environment setup and configuration of the STM32MP1 Developer package - For the motor control application of the maze game. ✅ 2023-06-30
+		 - [x] Italian 2hr ✅ 2023-06-29
+		 - [x] AIST Alignment call ✅ 2023-06-26
+	- ## Week 27
+		- [x] Faced problems with the SDK for STM32MP1, tried to reinstalled the environment on different machines. ✅ 2023-07-03
+		- [x] Solved errors while compiling the STM32MP1 project for the Maze game. ✅ 2023-07-05
+		- [x] Setup of the miniature door and mounted ISPU on it for data collection. ✅ 2023-07-06
+		- [x] Wrote script to collect the door knock data using ISPU for random door knocks and a door knock pattern ✅ 2023-07-06
+		- [x] Collected data from 4 users ✅ 2023-07-07
+		-  Meeting 
+		- [x] Model Zoo Knowledge Sharing session ✅ 2023-07-03
+		- [x] Introduction to ST ChatGPT ✅ 2023-07-07
+	- ## Week 28
+		- [x] Added more data collection protocol to collect more brief data and negatives ✅ 2023-07-10
+		- [x] Added functions to the script to automate the data collection process ✅ 2023-07-11
+		- [x] Collected data from another 5 users, also the negative data were collected ✅ 2023-07-12
+		- [x] Setup of LabelStudio (an open source data labeling tool) for labeling the time series data. ✅ 2023-07-13
+		- [x] Manual labelling of the time series data into segments using the tool for a single user data and saved them for further processing ✅ 2023-07-14
+		- [x] Researching for better preprocessing and labeling of the time series data as it includes noise and silences. ✅ 2023-07-14
+	 - ## Week 29
+		- [x] Validated two neural networks with different size with the knock data collected so far without any preprocessing or feature extraction. ✅ 2023-07-17
+		- [x] A comparison of the model performance for different sampling rate and window size was made to understand the data. ✅ 2023-07-18
+		- [x] Since the data is not balanced with positives and negatives, new negative classes are added to the data collection protocol. ✅ 2023-07-18
+		- [x] Collected door data from 11 new users and more negatives from the previous users. ✅ 2023-07-20
+		- [x] script to preprocess the data ✅ 2023-07-21
+		- [x] Evaluate the [[ Door model performance]] ✅ 2023-07-21
+	- ## Week 30
+		- [x] Improve preprocessing of data with respect to comments by Claudio ✅ 2023-07-26
+		- [x] Write a better script to remove silence from the signal without any overlapping ✅ 2023-07-26
+		- [x] Window the data for every recording isolated and stitch them together ✅ 2023-07-26
+		- [x] Change the window size from 50 to 25 and check the performance ✅ 2023-07-28
+		- [x] Use only the Z-axis data and check the performance ✅ 2023-07-28
+		- [x] Try Other smaller models ( also from model zoo) ✅ 2023-07-28
+		- [x] Negatives same windowing algorithm. ✅ 2023-07-26
+	- ## Week 31
+		- [x] Wrote code for the ISPU and deployed the neural network with best performance of 83% accuracy so far. ✅ 2023-08-01
+		- [x] Debugging of the ISPU code for preprocessing and inference ✅ 2023-08-02
+		- [x] Analyzed the network performance on device in real time for different networks and configurations which is supported by the ISPU ✅ 2023-08-04
+		- [x] Performance of  the neural network is not acceptable, requires further study ✅ 2023-08-05
+	- ## Week 32
+		- [x] Studied the code of the "QuasarEthz" project. ✅ 2023-08-07
+		- [x] Wrote code for the ISPU door project with the "QuasarEthz" project's preprocessing and analyzed the network performance on different configurations to help the network gain performance ✅ 2023-08-09
+		- [x] Very little to zero improvement in the network performance. ✅ 2023-08-10
+		- [x] Tried a statistical feature extraction method and resulted in the same results. ✅ 2023-08-11
+		- [x] Downsampling the data from 833 to lower sampling rate and will be evaluating them. ✅ 2023-08-12
+	- ## Week 33
+		- [x] Experimenting with different preprocessing and peak detection methods applied by the "QuasarEthz" project ✅ 2023-08-14
+		- [x] Wrote C for the ISPU for the same preprocessing and started testing the inference performance. ✅ 2023-08-16
+		- [x] debugging error with the output of the neural network in the ISPU ✅ 2023-08-17
+		- [x] Applied certain filters to remove noise and evaluated the performance in python ✅ 2023-08-18
+		- [x] Experimented with several downsampling methods to accommodate the buffer and neural network in the ISPU memory. ✅ 2023-08-18
+
+	- ## Week 34
+		- [x] Down sample the data by 2 and check the performance ✅ 2023-10-12
+		- [x] Diversify the door location in the dataset also to provide the threshold values ✅ 2023-08-22
+		- [x] Check the smooth_data() function ⏫ 📅 2023-08-11 ✅ 2023-08-22
+		- [x] Smooth the curve with block_size from (2 to 20) and check the smoothening ⏫ 📅 2023-08-11 ✅ 2023-08-22
+		- [x] Check the network input size ⏫ 📅 2023-08-23 ✅ 2023-08-23
+		- [x] Fix the inputs to the neural networks and the ACC_sens value. ⏫ 📅 2023-08-23 ✅ 2023-08-23
+		- [x] Fix the input values range and Fix the interrupt problem ⏫ 📅 2023-08-23 ✅ 2023-08-23
+		- [x] update eleave 📅 2023-08-11 ✅ 2023-08-17
+		- [x] fix the inference of the network which always goes to 1 and not 0 in all cases ⏫ 📅 2023-08-23 ✅ 2023-09-21
+		- [x] Visualize the data in notebook ⏫ 📅 2023-08-23 ✅ 2023-10-12
+		- [x] Add preprocessing to detect the peak and use the 32 samples before and after peak data in C ✅ 2023-10-12
+	
+	- ## Week 43
+		- #### [Meetings]
+			- [x] Poster for paper presentation ✅ 2023-10-19
+			- [x] Slides for Wednesday presentation ✅ 2023-10-19
+			- [x] Meeting with Stefano ✅ 2023-10-23
+			- [ ] Think of a paper to submit for a conference and discuss with claudio
+
+		- #### [Maze Game]
+			- [x] Tweak H7 code for faster inference ✅ 2023-10-16
+				- [ ] Quantize the network for faster inference
+				- [ ] Reduce the model topology for better inference
+				- [x] stop drawing the frame and check the inference time ✅ 2023-10-16
+			- [ ] Study the motor control better
+			- [ ] Study and check if there's a delay in reading the USART msg by the master
+			- [ ] Check if USART data is sent by slave upon master request or a broadcast method.
+			- [ ] Keep in mind that the H7 version doesn't match the one I have.
+			- [ ] [giusenso/Ball-Balancing-PID-System: Ball Balancing PID System: control of a 2 axis platform for ball stabilization w/ visual servoing. (github.com)](https://github.com/giusenso/Ball-Balancing-PID-System)
+			- [ ] 
+			- [x] Add block wall support. ✅ 2023-10-16
+			- [x] Discuss about H7 version mismatch. ✅ 2023-10-16
+			
+		- #### [Vespucci]
+			- [x] Visit to Main site for the door setup (Tuesday)
+			- [ ] Creative speakers
+			- [ ] Request support for Maxpool layer
+			- [ ] BruteForce test of the models with new topologies and preprocessing
+			- [ ] Generate the C code and test the new models with better accuracy on raw data
+			- [ ] Debug the generated code for errors by using the terminal application
+			- [ ] 
+			- [x] Check the Sensitivity and Height settings
+				- [x] Plot the knocks with the latest sensitivity value and height settings
+			- [x] Try to reduce the window size for faster inference
+			- [x] Add more user data and check the performance
+				- [x] remove kick noise data
+			- [x] Check by increasing the sensitivity
+			- [ ] Quantize to int8 and check the performance
+			- [ ] A very light second neural network which takes only the interval between the knocks to detect the pattern.
+			- [ ] New dataset with just one person and multiple classes
+			- [ ] New dataset collection with Vespucci
+			- [x] Vespucci production with ISPU.AI
+			- [x] ISPU O/P 1 and 2 read by changing the "for loop" order from 3-0 ✅ 2023-10-18
+			- [x] Load the ISPU and STWIN.Box in the door and experiment. ✅ 2023-10-19
+			- [x] Discussion with Davide Aliprandi for gateway ✅ 2023-10-18
+
+
+- # November
+	- ## Remainders
+	- ## With Maze Game ([[Maze Project Timeline |Timeline]]) 
+	-  level at 00.13, 00.90
+		- [ ] Install the BSP package for the STM32MP1 Developer Package
+		- [ ] Add this code for [[Homography_code]] and compare with old method
+		- [ ] change pos matrix with the calibrated x y positions of all corners in a flat position and use these(14,18,304,20,310,228,6,222) instead of (0,0, 0, 320, 320, 240, 240, 0) ⏫
+		- [ ] Setup the ideal setup with tapes to place the maze in place 🔼 
+			- [ ] Measure the inclination of the camera module
+				- [ ] Adjust the maze platform to the inclination of the camera
+			- [ ] Collect the corner points and update the pos_matrix
+			- [ ] Capture an image in flat position(both before and after the parallelism with the camera) and cross ref the corner points with the ones calculated by the algorithm
+		- [ ] Also replace the formula Cam_W, Cam_H with these new calibrated values ⏫
+		- [ ] Fix MAZE_GAME #def and #undef functions impact ⏫ 
+			- [ ] Fix bug - maze device dies in tracking mode ⏫ 
+		- [ ] Change ball diameter in "ball_seeker_ball.h" file 🔼 
+		- [ ] Check the "maze_config*.config" file in the SDCard 🔼  
+		- [ ] Change Training square size to train the ball from the platform 🔼 
+		- [ ] Remove the spacer from the camera module to see the impact 🔼 
+		- [ ] Play with the new NN and new motor control
+		- [ ] Lego block as an alternative
+		- [ ] Detection of walls
+		- [ ] [[Dynamic Wall Idea]] 🔼 
+		- [ ] Initial check with dynamic wall support
+			- [ ] Always restart the game after a change in wall
+			- [ ] Change wall in middle of a game (No restart)
+		- [ ] [[Tilt range Idea]] 🔼 
+		- [ ] [[Motor Control Idea]] 🔼 
+	- ## Door Knock project
+		- [ ] [[HOW TO WORK WITH ISPUAI]]
+		- [ ] Develop a pipeline for feature extraction and NN
+		- [ ] [[Feature Extraction Ideas]]
+		- [ ] Same features in C STM32Cube_IDE
+		- [ ] Measure timings and memory usage for each feature process in Nucleo or STwinBox
+	- ## Others
+	- ## Management
+
+- only NN support
+- conv batch relu

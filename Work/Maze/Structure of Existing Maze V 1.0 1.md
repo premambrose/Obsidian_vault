@@ -1,0 +1,23 @@
+- # STM32H7471 - Disco
+	- ##### Connected to the [Camera](https://www.st.com/en/evaluation-tools/b-cams-omv.html) and calculates the position of the ball in the maze in terms of pixel position. 
+	- ##### Camera
+		- 5 MP
+		- 8bit colors
+	- ##### Sends the position of the Ball in the maze to the STM-MP1 board with SPI communication
+	- ##### No communication from MP1. One way
+	- ##### Two operating modes
+	- #### Training Mode
+		 - Trains the color of the ball in three different available colors
+			 - Red
+			 - Blue
+			 - Green
+		- Ball should fill the training box with proper illumination
+	- #### Tracking Mode
+		- Tracks the trained ball in the image with a color mask filter
+		- Gives the X, Y , Radius of the Ball in terms of Pixel
+- ## STM-MP1
+	- ##### Linux 
+	- ##### Collects the data about the ball and takes action
+	- ##### Each position of the ball in the maze holds a command to follow, which is guided by this board.
+	- ##### Sends control signal to the two motor control board
+	-   

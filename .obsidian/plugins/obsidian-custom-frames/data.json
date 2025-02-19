@@ -1,0 +1,17 @@
+{
+  "frames": [
+    {
+      "url": "http://giove-hmi.col.st.com:5454",
+      "displayName": "llama-cpp",
+      "icon": "🧠",
+      "hideOnMobile": true,
+      "addRibbonIcon": true,
+      "openInCenter": false,
+      "zoomLevel": 1,
+      "forceIframe": true,
+      "customCss": "",
+      "customJs": ""
+    }
+  ],
+  "padding": 5
+}

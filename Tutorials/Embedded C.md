@@ -1,0 +1,25 @@
+- De reference pointer in loop is costly
+- Register variable as counter for loop 
+	- eg : register int i;
+- Avoid floating operations
+- Break math operations into smaller single operations in a line 
+- Recommended usage of unsigned values
+- Avoid use of "else"
+- Replace 'switch' with 'if' conditions
+- 1 dimensional arrays recommended
+- Minimal operations inside the loop recommended
+- Bit wise operations suggested
+	- a<<1: Mul 
+	- a>>1: Div
+- Break switch to nested switch for common cases
+- Place frequently happening case as first case in Switch condition
+- A || B, A && B
+- Place the likely case to happen first when defining multiple condition statements
+	- eg : for (a != 1, b!=0, c!=0)
+		- a!=1 more likely to happen, placed first
+- **Left shift**
+	- variable << n 
+	- variable = variable * 2^n
+- **Right shift**
+	- variable >> n 
+	- variable = variable / 2^n

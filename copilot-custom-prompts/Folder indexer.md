@@ -1,0 +1,1 @@
+create a markdown index table of all the files in this {FolderName} and create the right categories and backlink the files by placing the file name between two square brackets (eg: [[FileName]]) for obsidian. backlinking the files is very important.

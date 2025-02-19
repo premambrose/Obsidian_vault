@@ -1,0 +1,19 @@
+- PRG-RES-UNIVERSITY/vespucci-artifacts repository
+	- https://github.com/PRG-RES-UNIVERSITY/vespucci-artifacts/tree/testing_battery_branch
+
+- Clone the above repo
+- Code is in Firmware/ai_smart_sensor_monitor
+- git checkout -b testing_battery_branch
+- Open STMCubeIDE and open the ai_smart_sensor_monitor project
+	- Application/user/ssm/AI/ispu.h
+	- copy paste the UCF file context to ispu.h file
+- Build and debug the project
+- Connect STWIN.box with both USB and STlink(Nucleo)
+- Serial connection tool and connect to the STWIN.box
+- Connect with the right Baud rate
+- Application/user/ssm/App has all the ispu files
+- take a look at app_ssm.h - initializes the ispu and loads the ucf data from the ispu.h
+- app_ssm.h 
+	- SSM_CONFIG_BLUEST_SDK_V3_DEVCE_ID, FW_ID, Protocol_version, Payload_ID
+- 8 Byte predictions - write the prediction 0x10U register
+- 

@@ -1,0 +1,137 @@
+alias a=Assets
+alias b=Assets:Banking
+alias c=Liabilities:Credit
+alias l=Liabilities
+alias e=Expenses
+alias i=Income
+
+#+name: balance
+#+begin_src ledger :cmdline bal :noweb yes
+#+end_src
+
+; Lines starting with a semicolon are comments and will not be parsed.
+
+; This is an example of what a transaction looks like.
+; Every transaction must balance to 0 if you add up all the lines.
+; If the last line is left empty, it will automatically balance the transaction.
+; 
+; 2021-12-25 Starbucks Coffee
+;     e:Food:Treats     $5.25   ; To this account
+;     c:Chase                           ; From this account
+
+; Use this transaction to fill in the balances from your bank accounts.
+; This only needs to be done once, and enables you to reconcile your
+; Ledger file with your bank account statements.
+
+2023-01-01 Starting Balances
+    ; Add a line for each bank account or credit card
+    assets:Intesa Bank: €1836.61
+    StartingBalance      ; Leave this line alone
+
+; I highly recommend reading through the Ledger documentation about the basics
+; of accounting with Ledger
+;     https://www.ledger-cli.org/3.0/doc/ledger3.html#Principles-of-Accounting-with-Ledger
+
+; Lots more information about this format can be found on the
+; Ledger CLI homepage. Please note however that not quite all
+; of the Ledger CLI functionality is supported by this plugin.
+;     https://www.ledger-cli.org
+
+; You can add transactions here easily using the "Add to Ledger"
+; Command in Obsidian. You can even make a shortcut to it on your
+; mobile phone homescreen. See the README for more information.
+
+; If you have questions, please use the Github discussions:
+;     https://github.com/tgrosinger/ledger-obsidian/discussions/landing
+; If you encounter issues, please search the existing Github issues,
+; and create a new one if your issue has not already been solved.
+;     https://github.com/tgrosinger/ledger-obsidian/issues
+
+
+2023/01/02 Lidl
+    Expenses:Food:Grocery    €18.86
+    Assets:Intesa Bank:
+
+2023/01/03 Lidl
+    Expenses:Food:Grocery    €5.07
+    Assets:Intesa Bank:
+
+2023/01/03 Mc Donald's
+    Expenses:Food    €5.50
+    Assets:Intesa Bank:
+
+2023/01/03 Acqua Sapone
+    Expenses:Others:Soap    €1.50
+    Assets:Intesa Bank:
+
+2023/01/03 Selva's gift
+    Assets:Intesa Bank:    €19.00
+    Income:Loan:Pavithra
+    
+2023/01/04 Rent
+    Expenses:Rent    €250
+    Assets:Intesa Bank:
+    
+2023/01/04 Bills
+    Expenses:Rent:Bills    €51.8
+    Assets:Intesa Bank:
+    
+2023/01/04 Sneha's gift
+    Expenses:Gift:Sneha    €18.98
+    Assets:Intesa Bank:
+    
+2023/01/05 Dinesh rent loan
+    Assets:Intesa Bank:    €20.8
+    Income:Loan:Dinesh
+
+2023/01/05 Gym
+    Expenses:Health:Gym    €24.7
+    Assets:Intesa Bank:
+
+2023/01/05 Loan to Selva
+    Expenses:Loan:Selva    €290
+    Assets:Intesa Bank:
+
+2023/01/05 Appa's Gift
+    Expenses:Gift:Appa    €55
+    Assets:Intesa Bank:
+
+2023/01/05 Mc donald's
+    Expenses:Food:Outside    €1.8
+    Assets:Intesa Bank:
+
+2023/01/05 Cerave Cream
+    Expenses:Health:Medicine    €32.87
+    Assets:Intesa Bank:
+
+2023/01/07 Hudson Payback
+    Assets:Intesa Bank:     €21
+    Income:Loan:Hudson   
+
+2023/01/07 Lidl
+    Expenses:Food:Grocery    €15.91
+    Assets:Intesa Bank:
+
+2023/01/10 Esselunga
+    Expenses:Food:Grocery    €37.67
+    Assets:Intesa Bank:
+    
+2023/01/14 Lidl
+    Expenses:Food:Grocery    €21.54
+    Assets:Intesa Bank:
+
+2023/01/16 Lidl
+    Expenses:Food:Grocery    €2.43
+    Assets:Intesa Bank:
+
+2023/01/18 Esselunga
+    Expenses:Food:Grocery    €16.84
+    Assets:Intesa Bank:
+
+2023/01/07 Sneha Medical
+    Expenses:Family Support:Medical    €203
+    Assets:Intesa Bank:
+
+2023/01/21 Lidl
+    Expenses:Food:Grocery    €9.56
+    Assets:Intesa Bank:

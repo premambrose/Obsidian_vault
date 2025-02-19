@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"type":"text","text":"Tilted Image","id":"dca4ff89a4144b8a","x":-220,"y":60,"width":160,"height":60,"color":"1"},
+		{"type":"text","text":"Detect four corners","id":"a3c7f56e88623214","x":-230,"y":280,"width":180,"height":60,"color":"4"},
+		{"type":"text","text":"Get Transformation Matrix","id":"fa6ec667d784f493","x":-230,"y":430,"width":180,"height":80,"color":"5"},
+		{"type":"text","text":"Detect Ball position","id":"cf7d930065edc7d5","x":20,"y":410,"width":180,"height":60,"color":"2"},
+		{"type":"text","text":"Find wall corners\nSTM32_IPL","id":"78e3ccae9168df3b","x":-500,"y":400,"width":180,"height":60,"color":"2"},
+		{"type":"text","text":"Estimate transformed ball position","id":"3f4bc1864ca14af2","x":23,"y":665,"width":174,"height":89,"color":"6"},
+		{"type":"text","text":"Estimate transformed Wall position","id":"9d8a9c5aac82771f","x":-497,"y":665,"width":174,"height":89,"color":"6"},
+		{"type":"text","text":"Reference Image","id":"91acc71f0e314db0","x":-240,"y":-80,"width":200,"height":50,"color":"2"}
+	],
+	"edges":[
+		{"id":"bdeb358cb0796436","fromNode":"91acc71f0e314db0","fromSide":"bottom","toNode":"dca4ff89a4144b8a","toSide":"top"},
+		{"id":"392126b76bb53869","fromNode":"dca4ff89a4144b8a","fromSide":"bottom","toNode":"a3c7f56e88623214","toSide":"top"},
+		{"id":"97a99451c1aa6a48","fromNode":"dca4ff89a4144b8a","fromSide":"bottom","toNode":"78e3ccae9168df3b","toSide":"top"},
+		{"id":"28f22829300e0df5","fromNode":"dca4ff89a4144b8a","fromSide":"bottom","toNode":"cf7d930065edc7d5","toSide":"top"},
+		{"id":"349b96ec5e76820a","fromNode":"a3c7f56e88623214","fromSide":"bottom","toNode":"fa6ec667d784f493","toSide":"top"},
+		{"id":"52de5439d53e3d97","fromNode":"78e3ccae9168df3b","fromSide":"bottom","toNode":"9d8a9c5aac82771f","toSide":"top"},
+		{"id":"d3e919aef363245b","fromNode":"fa6ec667d784f493","fromSide":"bottom","toNode":"9d8a9c5aac82771f","toSide":"top"},
+		{"id":"6419330771290b66","fromNode":"fa6ec667d784f493","fromSide":"bottom","toNode":"3f4bc1864ca14af2","toSide":"top"},
+		{"id":"88aab7857dde45c7","fromNode":"cf7d930065edc7d5","fromSide":"bottom","toNode":"3f4bc1864ca14af2","toSide":"top"}
+	]
+}
